@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>主页</title>
+        <style>
+            @keyframes aa{
+                1%{
+                    border-radius:5px;
+                    color:white;
+                    background-color: skyblue;
+                }
+                40%{
+                    color:skyblue;
+                    background-color:white;
+                }
+                70%{
+                    border-radius: 10px;
+                }
+                100%{
+                    border-radius: 2px;
+                }
+            }
+            @-webkit-keyframes aa{
+                1%{
+                    border-radius:5px;
+                    color:white;
+                    background-color: skyblue;
+                }
+                40%{
+                    color:skyblue;
+                    background-color:white;
+                }
+                70%{
+                    border-radius: 10px;
+                }
+                100%{
+                    border-radius: 2px;
+                }
+            }
+            .but:hover{
+                animation: aa 2s;
+                -webkit-animation: aa 2s;
+                color:skyblue;
+                background-color:white;
+                border-radius: 2px;
+            }
+            .but{
+                border-radius:5px;
+                color:white;
+                background-color: skyblue;
+                border-radius:5px;
+                height: 30px;
+            }
+            .background{
+                background-size: cover;
+                background-image: url("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=808818406,3686689127&fm=26&gp=0.jpg");
+            }
+            .t{
+                font-size: 30px;
+                color:white;
+                text-align: center;
+            }
+            .f{
+                font-size: 5px;
+                color:white;
+                text-align: center;
+            }
+            .textbox{
+                border-radius:20px;
+                background-color:white;
+                color:balck;
+                height: 30px;
+            }
+            .form{
+                text-align: center;
+                width: auto;
+                left: auto;
+            }
+        </style>
+    </head>
+    <body class="background">
+        <div style="height: 10%;"></div>
+        <p class="t">Welcome</p>
+        <div style="height: 5%;"></div>
+        <form class="form" action="https://www.baidu.com/s" method="get">
+            <input class="textbox" name="wd">&nbsp;&nbsp;<input class="but" type="submit" value="百度搜索">
+        </form>
+        <div style="height: 40%;"></div>
+        <p class="f">举头望明月，低头思故乡</p>
+    </body>
+</html>
